@@ -1,0 +1,36 @@
+{
+  "name": "plug-and-play",
+  "version": "0.0.0",
+  "description": "Plug and Play, is How to Handle Component Detail etc.",
+  "strapi": {
+    "name": "plug-and-play",
+    "description": "Plug and Play, is How to Handle Component Detail etc",
+    "kind": "plugin",
+    "displayName": "Plug And Play"
+  },
+  "author": {
+    "name": "ikhlas firlana <ifirlana@gmail.com>"
+  },
+  "maintainers": [
+    {
+      "name": "ikhlas firlana <ifirlana@gmail.com>"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/runtime-corejs3": "^7.19.1",
+    "core-js": "^3.25.1",
+    "nanoid": "^4.0.0",
+    "react": "^18.2.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "dependencies": {
+    "@awug/pokemon": "^0.0.7",
+    "axios": "^0.27.2",
+    "prop-types": "^15.8.1"
+  }
+}
